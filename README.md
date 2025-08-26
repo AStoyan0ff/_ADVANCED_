@@ -12,7 +12,7 @@
 
 ---
 
-### <span style="background:#0078d7; color:white; padding:4px 8px; border-radius:6px;">1 Generics</span>
+### <span style="background:#0078d7; color:white; padding:4px 8px; border-radius:6px;"> 1️⃣ Generics</span>
 
 ✔ **Позволяват създаване на класове и методи, които работят с различни типове данни.**
 ✔ **Предпазват от грешки при преобразуване на типове.**
@@ -38,13 +38,13 @@ System.out.println(box.getValue());
 ```
 ---
 
-### <span style="background:#0078d7; color:white; padding:4px 8px; border-radius:6px;">2 Iterators & Comparators</span>
+### <span style="background:#0078d7; color:white; padding:4px 8px; border-radius:6px;"> 2️⃣ Iterators & Comparators</span>
 
 ✔ **Итератори обхождат колекции по безопасен начин.**
 ✔ **Компараторите позволяват персонализирано сортиране на обекти.**
 ✔ **Цел: Лесно обхождане и сортиране на колекции.**
 
-✅ **Пример:**
+✅ *Пример:*
 
 ```java
 List<String> names = Arrays.asList("Andrey", "Vicky", "Nevena");
@@ -55,13 +55,13 @@ names.forEach(System.out::println);
 
 ---
 
-### <span style="background:#0078d7; color:white; padding:4px 8px; border-radius:6px;">3 Functional Programming</span>
+### <span style="background:#0078d7; color:white; padding:4px 8px; border-radius:6px;"> 3️⃣ Functional Programming</span>
 
 ✔ **Използва ламбда изрази и потоци (Streams) за по-декларативен стил.**
 ✔ **Осигурява по-кратък и четим код.**
 ✔ **Цел: Обработка на данни по функционален начин.**
 
-✅ **Пример:**
+✅ *Пример:*
 
 ```java
 List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
@@ -76,7 +76,7 @@ System.out.println("Sum of even numbers: " + sum);
 
 ---
 
-### <span style="background:#0078d7; color:white; padding:4px 8px; border-radius:6px;">4 Multidimensional Arrays & Collections</span>
+### <span style="background:#0078d7; color:white; padding:4px 8px; border-radius:6px;"> 4️⃣ Multidimensional Arrays & Collections</span>
 
 ✔ **Работа с матрици и вложени колекции (List, Set, Map).**
 ✔ **Използват се за решаване на задачи с по-сложни структури от данни.**
