@@ -4,7 +4,7 @@
   <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="80">
 </h1>
 
-📚 **Java Advanced надгражда основите на програмирането и се фокусира върху структури от данни, функционално програмиране и по-ефективно боравене с паметта.**  
+📚 **`Java Advanced` надгражда основите на програмирането и се фокусира върху структури от данни, функционално програмиране и по-ефективно боравене с паметта.**  
 
 ---
 
@@ -32,8 +32,6 @@ public class Box<T> {
         return value;
     }
 }
-
-// Използване:
 Box<String> box = new Box<>();
 box.setValue("Hello");
 System.out.println(box.getValue());
@@ -49,7 +47,7 @@ System.out.println(box.getValue());
 ✅ **Пример:**
 
 ```java
-List<String> names = Arrays.asList("Ivan", "Maria", "Peter");
+List<String> names = Arrays.asList("Andrey", "Vicky", "Nevena");
 
 Collections.sort(names, (a, b) -> a.compareTo(b));
 names.forEach(System.out::println);
